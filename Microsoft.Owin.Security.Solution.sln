@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.WeChat", "Microsoft.Owin.Security.WeChat\Microsoft.Owin.Security.WeChat.csproj", "{A9A0BA07-5273-4D93-A398-E5F94177CC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.QQ", "Microsoft.Owin.Security.QQ\Microsoft.Owin.Security.QQ.csproj", "{2B96497A-C363-473A-BDD4-CC390B7ADB96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9A0BA07-5273-4D93-A398-E5F94177CC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A0BA07-5273-4D93-A398-E5F94177CC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A0BA07-5273-4D93-A398-E5F94177CC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A0BA07-5273-4D93-A398-E5F94177CC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B96497A-C363-473A-BDD4-CC390B7ADB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B96497A-C363-473A-BDD4-CC390B7ADB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B96497A-C363-473A-BDD4-CC390B7ADB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B96497A-C363-473A-BDD4-CC390B7ADB96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Microsoft.Owin.Security.WeChat</id>
+    <version>1.0.0.1</version>
+    <authors>Momy</authors>
+    <owners>Momy</owners>
+    <licenseUrl>http://www.yn-s.com</licenseUrl>
+    <projectUrl>http://http://www.yn-s.com</projectUrl>
+    <iconUrl>http://http://www.yn-s.com</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Middleware that enables an application to support WeChat/QQ OAuth 2.0 authentication workflow.</description>
+    <releaseNotes>ASP.NET MVC 5 OAuth.0 Login</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Owin Weixin Wechat Microsoft.Owin.Security.WeChat Microsoft.Owin.Security.Weixin</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin" version="2.0.0"/>
+      <dependency id="Microsoft.Owin.Security" version="2.0.0"/>
+      <dependency id="Newtonsoft.Json" version="6.0.0"/>
+      <dependency id="Owin" version="1.0"/>
+    </dependencies>
+  </metadata>
+</package>
