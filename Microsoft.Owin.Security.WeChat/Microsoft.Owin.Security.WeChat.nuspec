@@ -6,8 +6,8 @@
     <authors>Momy</authors>
     <owners>Momy</owners>
     <licenseUrl>http://www.yn-s.com</licenseUrl>
-    <projectUrl>http://http://www.yn-s.com</projectUrl>
-    <iconUrl>http://http://www.yn-s.com</iconUrl>
+    <projectUrl>https://github.com/momyh/Microsoft.Owin.Security.Solution</projectUrl>
+    <iconUrl>http://www.yn-s.com</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Middleware that enables an application to support WeChat/QQ OAuth 2.0 authentication workflow.</description>
     <releaseNotes>ASP.NET MVC 5 OAuth.0 Login</releaseNotes>
