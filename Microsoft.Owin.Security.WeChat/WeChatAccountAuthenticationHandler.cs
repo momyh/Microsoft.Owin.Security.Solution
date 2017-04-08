@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Security.Claims;
@@ -15,7 +15,7 @@ namespace Microsoft.Owin.Security.WeChat
     internal class WeChatAccountAuthenticationHandler : AuthenticationHandler<WeChatAuthenticationOptions>
     {
         private const string XmlSchemaString = "http://www.w3.org/2001/XMLSchema#string";
-        private const string AuthorizationEndpoint = "https://open.weixin.qq.com/connect/qrconnect";
+        private const string AuthorizationEndpoint = "https://open.weixin.qq.com/connect/oauth2/authorize";
         private const string TokenEndpoint = "https://api.weixin.qq.com/sns/oauth2/access_token";
         private const string UserInfoEndpoint = "https://api.weixin.qq.com/sns/userinfo";
         private const string OpenIDEndpoint = "https://api.weixin.qq.com/sns/oauth2";
@@ -191,7 +191,7 @@ namespace Microsoft.Owin.Security.WeChat
                 // comma separated
                 string scope = string.Join(",", Options.Scope);
 
-                string state = Options.StateDataFormat.Protect(properties);
+                string state = Options.StateDataFormat.Protect(properties).Substring(0, 64);
 
                 string authorizationEndpoint =
                     AuthorizationEndpoint +
